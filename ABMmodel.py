@@ -39,7 +39,7 @@ random.seed(0)
 
 # Initialyse the number of agents, iterations and frames 
 num_of_agents = 10
-num_of_iterations = 2
+num_of_iterations = 1
 num_of_frames = 100
 neighbourhood = 20
 agents = []
