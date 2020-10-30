@@ -9,7 +9,7 @@ It is a basic Agent-Based Model which allows us to simulate an environment in wh
 
 ### Sources 
 
-Programming for Social Science: Core Skills (https://www.geog.leeds.ac.uk/courses/computing/study/core-python-phd/)
+Module: Programming for Social Science: Core Skills 
 
 w3schools.com
 
