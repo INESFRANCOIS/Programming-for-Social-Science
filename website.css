@@ -7,25 +7,6 @@ header {
 }
 
 
-nav.navbar ul li.tab {
-	list-style-type: none;
-	display: inline-block;
-	border-right-color: green;
-}
-
-nav.navbar ul li.tab a {		
-	color: white;
-	background-color: green;
-	text-decoration: none;
-	padding: 10px;
-	width: 100%;
-}
-
-nav.navbar ul li.tab:hover a{
-	color: green;
-	background-color: white;
-}
-
 h1{
 	font-family: Calibri;
 	font-size: 22px;
