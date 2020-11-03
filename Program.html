@@ -5,8 +5,8 @@
 		<link rel ="stylesheet" href = "website.css">
 	</head>
 	<header> 
-	<h1> Programming for Social Science : Core Skills </h1>
-	<h2> Assignment 1 </h2>
+		<h1> Programming for Social Science : Core Skills </h1>
+		<h2> Assignment 1 </h2>
 	</header> 
 	<body>
 		<p> 
@@ -19,19 +19,22 @@
 		<p>
 			<img src = "UML.PNG" height="500" width="500"></img>
 		</p>
-	<h1> Run the program </h1>
+		<h1> Run the program </h1>
 		<p>
-			read the script of model: more ABMmodel.py </br>
-			read the script of agent class: more ABMagentclass.py </br>
-			run the program : python ABMmodel.py </br>
-			test the program : python -m doctest -v ABMagentclass.py </br>						
+			In your console to:
+			<ul>
+				<li>read the script of model: more ABMmodel.py </li>
+				<li>read the script of agent class: more ABMagentclass.py </li>
+				<li>run the program : python ABMmodel.py </li>
+				<li>test the program : python -m doctest -v ABMagentclass.py </li>
+			</ul>
 		</p>
-	<h1> Inputs </h1>
+		<h1> Inputs </h1>
 		<p> 
 			The environment is provided by the csv file   <a href = "in.csv"><span>in.csv</span></a>. </br>
 			The y- and x- coordinates of our agents is provided by the file <a href = "https://www.geog.leeds.ac.uk/courses/computing/practicals/python/agent-framework/part9/data.html"><span>data.html</span></a>. </br>
 		</p>	
-	<h1> Outputs </h1>
+		<h1> Outputs </h1>
 		<p>
 			&nbsp;&nbsp;&nbsp;&nbsp; In your console, when you run the program, you can see a table which contains the name, the position (y- and x- coordinates) and the quantity of resources of initial agents.
 			Carry_on true means that the function to create a picture for the animation is working. A stopping condition is added when all the agents have a quantity of resources which is greater than 100.  
@@ -113,9 +116,9 @@
 			</table>
 		<p>
 			<img src = "Figure.PNG" height="500" width="500"></img>
-		 </p>
+		</p>
 		<h1> Issues </h1>
-		<P> When we run the code ABMmodel.py, as visual output we obtained twice  the first frame number whose the number is 0. To solve this problem,
+		<P> &nbsp;&nbsp;&nbsp;&nbsp; When we run the code ABMmodel.py, the code works only for one iteration and as visual output we obtained twice  the first frame number whose the number is 0. To solve this problem,
 		I tried to initiate the animation in this code : <a href = "modificationcode.py"><span> modificationcode.py</span></a>. However, this code does not work. Only,  
 		two empty white windows, in which normally we have to see the animation and the figure, appear. </p>
 	</body>
