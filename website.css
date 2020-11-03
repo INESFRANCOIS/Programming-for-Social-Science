@@ -1,0 +1,99 @@
+header {
+	background-color:greenyellow;
+	color: brown;
+	width: 100%;
+	text-align: center;
+	padding: 10px;	
+}
+
+
+nav.navbar ul li.tab {
+	list-style-type: none;
+	display: inline-block;
+	border-right-color: green;
+}
+
+nav.navbar ul li.tab a {		
+	color: white;
+	background-color: green;
+	text-decoration: none;
+	padding: 10px;
+	width: 100%;
+}
+
+nav.navbar ul li.tab:hover a{
+	color: green;
+	background-color: white;
+}
+
+h1{
+	font-family: Calibri;
+	font-size: 22px;
+	font-weight: 100;
+}
+
+h2 {
+	font-family: Calibri;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+h3 {
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: 100;
+}
+	
+p {	
+	font-family:  Calibri;
+	font-size: 16px ;
+	font-weight: 100;
+	color: brown;
+	text-align: justify;	
+}
+
+span {	
+	font-family:  Calibri;
+	font-size: 16px;
+	font-weight: 100;
+	color: brown;
+}
+
+caption {	
+	font-family:  Calibri;
+	font-size: 16px ;
+	font-weight: 100;
+	color: brown;
+	text-align: center;	
+}
+
+tableau-style {
+border-collapse: collapse ;
+width: auto;
+margin: 100px auto;
+border: 2px solid green ;
+}
+
+thead, tr {
+background-color: green;
+color: white;
+text-align: center;
+}
+
+th, td {
+padding: 15px 20px;
+text-align: center;
+}
+
+tbody tr, td, th {
+border: 1px solid green;
+text-align: center;
+}
+
+footer {	
+	font-family:  Calibri;
+	font-size: 16px;
+	font-weight: 100;
+	color: brown;
+}
+
