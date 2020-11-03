@@ -1,0 +1,126 @@
+<!Doctype html>
+<html>
+	<head>
+		<title> Programming for social science</title>
+		<link rel ="stylesheet" href = "website.css">
+	</head>
+	<header> 
+	<h1> Programming for Social Science : Core Skills </h1>
+	<h2> Assignment 1 </h2>
+	</header> 
+	<body>
+		<p> 
+			&nbsp;&nbsp;&nbsp;&nbsp; In our <a href = "ABMagentclass.py"><span>agent class</span></a>, there are three main methods which simulate three possible behaviours for our sheeps : move in the meadow, eat grass and share their resources with their nearest neighbour. 
+			All functions which are in the agent class were documented (see the descriptions of functions with different parameters and return included in the code) and tested (fourty tests were performed).
+		</p>
+		<p>
+			&nbsp;&nbsp;&nbsp;&nbsp; In our script to run the <a href = "ABMmodel.py"><span>model</span></a>, we can found the code to initialyse the environment, to create the agents and to define a function which allow to create each picture of the animation.	
+		</p>
+		<p>
+			<img src = "UML.PNG" height="500" width="500"></img>
+		</p>
+	<h1> Run the program </h1>
+		<p>
+			read the script of model: more ABMmodel.py </br>
+			read the script of agent class: more ABMagentclass.py </br>
+			run the program : python ABMmodel.py </br>
+			test the program : python -m doctest -v ABMagentclass.py </br>						
+		</p>
+	<h1> Inputs </h1>
+		<p> 
+			The environment is provided by the csv file   <a href = "in.csv"><span>in.csv</span></a>. </br>
+			The y- and x- coordinates of our agents is provided by the file <a href = "https://www.geog.leeds.ac.uk/courses/computing/practicals/python/agent-framework/part9/data.html"><span>data.html</span></a>. </br>
+		</p>	
+	<h1> Outputs </h1>
+		<p>
+			&nbsp;&nbsp;&nbsp;&nbsp; In your console, when you run the program, you can see a table which contains the name, the position (y- and x- coordinates) and the quantity of resources of initial agents.
+			Carry_on true means that the function to create a picture for the animation is working. A stopping condition is added when all the agents have a quantity of resources which is greater than 100.  
+			In order to facilitate the reading of the program, each time that a new picture is created, you can see its frame number and at the end the number of frame where the stopping condition is applied. 
+			You get an animation of this agent-based model and a figure representing our ten agents in the environment. 
+		</p>
+		<table class = "tableaustyle">
+			<caption> Initial agents </caption>
+				<thead>	
+					<tr>			
+						<td> name </td>
+						<td> y </td> 
+						<td> x </td>
+						<td> store </td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> 0 </td>
+						<td> 20 </td>
+						<td> 73 </td>
+						<td> 49 </td>
+					</tr>
+					<tr>
+						<td> 1 </td>
+						<td> 52 </td>
+						<td> 91 </td>
+						<td> 97 </td>
+					</tr>
+					<tr>
+						<td> 2 </td>
+						<td> 40 </td>
+						<td> 52 </td>
+						<td> 53 </td>
+					</tr>
+					<tr>
+						<td> 3 </td>
+						<td> 14 </td>
+						<td> 93 </td>
+						<td> 5 </td>
+					</tr>
+					<tr>
+						<td> 4 </td>
+						<td> 35 </td>
+						<td> 48 </td>
+						<td> 33 </td>
+					</tr>
+					<tr>
+						<td> 5 </td>
+						<td> 63 </td>
+						<td> 11 </td>
+						<td> 65 </td>
+					</tr>
+					<tr>
+						<td> 6 </td>
+						<td> 63 </td>
+						<td> 70 </td>
+						<td> 62 </td>
+					</tr>
+					<tr>
+						<td> 7 </td>
+						<td> 30 </td>
+						<td> 19 </td>
+						<td> 51 </td>
+					</tr>				
+					<tr>
+						<td> 8 </td>
+						<td> 80 </td>
+						<td> 42  </td>
+						<td> 100  </td>
+					</tr>
+					<tr>
+						<td> 9 </td>
+						<td> 46 </td>
+						<td> 20 </td>
+						<td> 38 </td>
+					</tr>
+				</tbody>
+			</table>
+		<p>
+			<img src = "Figure.PNG" height="500" width="500"></img>
+		</p>
+		<h1> Issues </h1>
+		<P> When we run the code ABMmodel.py, as visual output we obtained twice  the first frame number whose the number is 0. To solve this problem,
+		I tried to initiate the animation in this code : <a href = "modificationcode.py"><span> modificationcode.py</span></a>. However, this code does not work. Only,  
+		two empty write windows, in which normally we have to see the animation and the figure, appear. </p> 
+	</body>
+	<footer> Copyright &copy; 2020 Programming for Social Science : Core Skills _ Assignment 1 _In&egrave;s Fran&ccedil;ois </footer>
+</html>		
+
+
+
